@@ -2,11 +2,13 @@
 Alpha Numeric adeventure
 
 ***After Clone open index.html file to play the game*****
+
+
 *** TO LOGIN ****
 USER NAME:admin@gmail.com
 PASSWORD:admin
 
-CLUE:p1t7m
+
 
 
 ***DESCRIPTION ABOUT THE GAME***
@@ -23,5 +25,7 @@ The player can attempt to enter the alphanumeric code in any order they prefer, 
 If the player successfully enters the correct alphanumeric code in all five blank boxes within the 5-minute time limit, the hunt chest unlocks, and the player wins the game. As a reward, the player receives 100 gold coins and may proceed to the next level if available.
   
   With a limited time schedule and a single user admin account, the game is suitable for small-scale or personal use. Players can enjoy the excitement of solving clues and cracking the code to unlock the hunt chest and claim the treasure, all within the confines of the single level of the game.
+  
+##PIN to open the hunt chest:p1t7m
   
   
