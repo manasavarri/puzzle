@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/final.css">
+</head>
+
+<body>
+    <div >
+        <p>Congratulations you solved Puzzle in :</p>
+        <p id="para">error in time</p>
+    </div>
+    <div class="cfl"></div>
+    <div class="gg">
+        <a href="play.html">replay!!!</a>
+        <a href="index.html">Logout</a>        
+    </div>
+    <script>
+        var s = sessionStorage.getItem("time");
+        document.getElementById("para").innerHTML = s;
+    </script>
+</body>
+
+</html>

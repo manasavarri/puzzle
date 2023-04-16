@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'metropolis';
+    src: url(FontFaces/metropolis.black-italic.otf);
+    font-weight: bold;
+    font-size: small;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/loginBg.jpg);
+}
+
+.MainHeader {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    height: 422px;
+}
+
+/* *********************************************** CLEAR FLOATS here ........ From here copy that******************************** */
+.fix {
+    clear: both;
+}
+
+
+/* ****************************zomato main text logo************************** */
+.zomato_txt {
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zomato_txt button:hover,
+nav:hover {
+    background-color: black;
+    color: white;
+}
+
+.title{
+    background-color: black;
+    opacity: 0.5;
+}
+.title p {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    /* margin-top: 0px; */
+    color: white;
+}
+
+nav:hover {
+    border-style: ridge;
+}
+
+.zomato_txt button {
+    color: rgb(3, 3, 3);
+    /* margin-top: 10px; */
+    margin-left: 50px;
+    font-family: 'metropolis', 'Times New Roman', Times, serif;
+    font-size: 80px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(254, 225, 2);
+    cursor: pointer;
+}
+
+.zomato_txt p {
+    color: rgb(4, 4, 4);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+li,
+p {
+    color: white;
+    font-size: large;
+    padding-bottom: 0;
+}
+
+.nav {
+    border-radius: 8px;
+    padding: 0;
+    margin: -35px;
+    color: black;
+    font-size: xx-large;
+    margin-right: 20px;
+    float: right;
+    cursor: pointer;
+    background-color: rgb(254, 225, 2);
+
+}
+
+legend {
+    color: rgb(255, 255, 0);
+    font-size: xx-large;
+}
+
+fieldset {
+    margin-left: 400px;
+    margin-right: 400px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 20px 10px 20px 10px;
+}

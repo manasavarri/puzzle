@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/play.css">
+    <script src="js/play.js"></script>
+</head>
+
+<body>
+    <div class="countdown">countdown begins <span id="time">01:00</span> minutes</div>
+    <marquee class="snake" scrollamount="100"><p>- - - - - - -&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- - - - - - -&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- - - - - - -&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- - - - - - -&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- - - - - - </p></marquee>
+    <div class="box">
+        <div class="upperboxtxt">
+            <input type="text" name="textbox" maxlength="1" onkeyup="KeyOpen()">
+            <input type="text" name="textbox" maxlength="1" onkeyup="KeyOpen()">
+            <input type="text" name="textbox" maxlength="1" onkeyup="KeyOpen()">
+            <input type="text" name="textbox" maxlength="1" onkeyup="KeyOpen()">
+            <input type="text" name="textbox" maxlength="1" onkeyup="KeyOpen()">
+
+        </div>
+        
+        <div class="lowerboxthint">
+            <button class ="buttons" type="button" onclick="txt1()">!</button>
+            <button class ="buttons" type="button" onclick="txt2()">!</button>
+            <button class ="buttons" type="button" onclick="txt3()">!</button>
+            <button class ="buttons" type="button" onclick="txt4()">!</button>
+            <button class ="buttons" type="button" onclick="txt5()">!</button>
+        </div>
+        
+        <div class="hintbox">
+            <p id="para">click on hint buttons to get hints</p>
+        </div>
+        <div><image src="images/ttt.jpg"></image></div>
+    </div>
+    
+    <marquee class="snake snakes" scrollamount="40"><p>7</p></marquee>
+</body>
+
+</html>

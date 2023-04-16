@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/login.css">
+    <script src="js/loginn.js"></script>
+  </head>
+  <body>  
+    <div class="wrapper">
+      <div class="title">Login</div>
+      <form action="loginn.js" method="post">
+        <div class="field">
+            <input type="text" name="email" id="email" placeholder="Email Address" required>
+          <!-- <label>Email Address</label> -->
+        </div>
+        <div class="field">
+          <input type="password" name="password" id="password" placeholder="Password" required>
+          <!-- <label>Password</label> -->
+        </div>
+        <div class="field">
+            <input type="submit" value="Sign in" onclick="return login()">
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
